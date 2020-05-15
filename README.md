@@ -1,3 +1,4 @@
+- run `npm i`
 - run https server `npm run server`
 - run test `cypress/integration/cache.spec.js`
 - see dev tools network tab
