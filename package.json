@@ -9,7 +9,8 @@
     "cypress:version": "cypress version",
     "list-videos": "ls -l cypress/videos",
     "check-videos": "ok-file 'cypress/videos/*.mp4'",
-    "set-status": "set-status"
+    "set-status": "set-status",
+    "server": "node app/server"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb@cypress.io>",
@@ -21,5 +22,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
